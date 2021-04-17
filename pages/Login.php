@@ -157,7 +157,11 @@ header("Location:http://localhost/Recommender-System/allMovies.php");
               <hr>
 
 
-
+              <?php
+              if (isset($_GET['message'])) {
+                echo "<div class='alert alert-success' role='alert' style='text-align:center;'>" . $_GET['message'] . " !</div>";
+              }
+              ?>
               <?php
 
               if (isset($_GET['error'])) {
