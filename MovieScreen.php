@@ -284,14 +284,14 @@ session_start();
                 <div class="row">
                     <!-- left panel -->
                     <div class="col-lg-3">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
+                        
+                            <div class="panel-body" style=" width:375px;">
                                 <!--                                        <a href="#">-->
-                                <img src=<?php echo $_POST['poster']; ?> alt="poster" class="img-responsive" style="width: 260px; height: 550px;">
+                                <img src=<?php echo $_POST['poster']; ?> alt="poster" class="img-responsive" style="width: 350px; height: 550px;">
                                 <!--                                        </a>-->
                                 <h2></h2>
                             </div>
-                        </div>
+                        
                     </div>
 
                     <!--                            <div class="col-sm-offset-1 col-sm-4 col-md-4"  style="background-color: grey">-->

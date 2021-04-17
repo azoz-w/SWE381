@@ -235,14 +235,14 @@ if(!isset($_SESSION['Admin'])){
                 <div class="row">
                     <!-- left panel -->
                     <div class="col-lg-3">
-                        <div class="panel panel-default">
-                            <div class="panel-body">
+                        
+                            <div class="panel-body" style="width :375px;">
                                 <!--                                        <a href="#">-->
-                                <img src=<?php echo $_POST['poster']; ?> alt="poster" class="img-responsive" style="width: 260px; height: 550px;">
+                                <img src=<?php echo $_POST['poster']; ?> alt="poster" class="img-responsive" style="width: 350px; height: 550px;">
                                 <!--                                        </a>-->
                                 <h2></h2>
                             </div>
-                        </div>
+                        
                     </div>
 
                     <!--                            <div class="col-sm-offset-1 col-sm-4 col-md-4"  style="background-color: grey">-->
@@ -369,8 +369,10 @@ if(!isset($_SESSION['Admin'])){
 
                                 <br>
 
-                                <input style="display:inline;font-weight:bold;background-color: grey;color:#FBAB45; width: 187.14px; border: 0px" type="submit" name="Yes" value="Accept">
-                                <input style="display:inline;font-weight:bold;background-color: grey;color:#FBAB45; width: 187.14px; border: 0px" type="submit" name="No" value="Deny">
+                                <center>
+                                <input style="display:inline;font-weight:bold;background-color: grey;color:black; width: 187.14px; border: 0px; background-color:green;" type="submit" name="Yes" value="Accept">
+                                <input style="display:inline;font-weight:bold;background-color: grey;color:black; width: 187.14px; border: 0px; background-color:red;" type="submit" name="No" value="Deny">
+                                </center>
 
                             </form>
 
