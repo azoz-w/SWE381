@@ -213,7 +213,7 @@
       <nav id="mainav" class="fl_right"> 
         <ul class="clear">
           <li class="active"><a href="adminHome.php">Home</a></li>
-          <li class="active"><a href="adminAdd.php">Add movie</a></li>
+          <li class="active"><a href="add.php">Add movie</a></li>
       </nav>
     </header>
   </div>
